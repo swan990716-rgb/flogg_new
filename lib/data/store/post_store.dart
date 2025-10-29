@@ -34,6 +34,6 @@ class PostStore extends ChangeNotifier {
   /// 글 추가: 피드 최상단에 삽입
   void addPost(Post post) {
     _posts.insert(0, post);
-    notifyListeners();
+     notifyListeners();
   }
 }
